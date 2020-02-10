@@ -1,0 +1,139 @@
+.feed_wrap.type1 {
+
+}
+
+.feed_wrap.type1 .item {
+    position: relative;
+    padding: 20px 0;
+    border: 1px solid #ddd;
+    
+}
+
+.feed_wrap.type1 .item .info{
+    padding-left: 120px;
+}
+
+.feed_wrap.type1 .image {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.feed_wrap.type1 .image img {
+    width: 80px;
+    height: 80px;
+}
+
+.feed_wrap.type1 .item .category,
+.feed_wrap.type1 .item .name,
+.feed_wrap.type1 .item .price{
+    display: block;
+}
+
+.feed_wrap.type1 .category{
+    font-size: 1.2rem;
+}
+
+.feed_wrap.type1 .name{
+    margin: 5px 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.feed_wrap.type1 .price{
+    font-size: 1.2rem;
+}
+
+.feed_wrap.type1 .bt_more {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    cursor: pointer;
+    width: 24px;
+    height: 19px;
+    border: 0;
+    background: transparent url(/resources/img/bt_more.png) no-repeat 0 0 /24px;
+    text-indent:  -1000px;
+    overflow: hidden;
+}
+
+.feed_wrap.type1 .detail{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: none;
+    font-size: 1.5rem;
+}
+
+.feed_wrap.type2 .image{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.feed_wrap.type2 .image img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.feed_wrap.type2 .item {
+    margin: 18px;
+   
+    padding: 20px 0;
+    border: 3px solid #ddd;
+    border-radius: 20px;
+}
+
+.feed_wrap.type2 .item .info{
+    padding: 0px 20px;
+}
+
+.feed_wrap.type2 .item .text {
+    position: relative;
+}
+
+.feed_wrap.type2 .item .category,
+.feed_wrap.type2 .item .name,
+.feed_wrap.type2 .item .price{
+    display: block; 
+}
+
+.feed_wrap.type2 .category{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.feed_wrap.type2 .name{
+    margin: 5px 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.feed_wrap.type2 .price{
+    font-size: 2rem;
+}
+
+.feed_wrap.type2 .bt_more {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    cursor: pointer;
+    width: 24px;
+    height: 19px;
+    border: 0;
+    background: transparent url(/resources/img/bt_more.png) no-repeat 0 0 /24px;
+    text-indent:  -1000px;
+    overflow: hidden;
+}
+
+.feed_wrap.type2 .detail{
+    display: none;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 1.5rem;
+
+}
+
+
+
+
+
